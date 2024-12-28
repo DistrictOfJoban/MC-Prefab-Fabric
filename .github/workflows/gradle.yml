@@ -3,19 +3,7 @@
 
 name: Java CI with Gradle
 
-on:
-  push:
-    paths-ignore:
-      - '.github/**'
-      - '**.md'
-      - '.gitignore'
-      - 'LICENSE'
-  pull_request:
-    paths-ignore:
-      - '.github/**'
-      - '**.md'
-      - '.gitignore'
-      - 'LICENSE'
+on: [push, pull_request]
       
 jobs:
   build:
